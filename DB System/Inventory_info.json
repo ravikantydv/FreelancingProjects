@@ -1,0 +1,12 @@
+[
+    {"sku": "SNY-11001", "quantity": 100, "last_updated": "2021-11-18 18:19:27"},
+    {"sku": "SNY-12002", "quantity": 80, "last_updated": "2021-12-01 23:12:45"},
+    {"sku": "SMG-21001", "quantity": 400, "last_updated": "2021-10-31 19:30:18"},
+    {"sku": "LLG-32001", "quantity": 450, "last_updated": "2021-11-28 12:34:56"},
+    {"sku": "PNS-18001", "quantity": 500, "last_updated": "2021-12-01 11:34:21"},
+    {"sku": "SMG-22002", "quantity": 200, "last_updated": "2021-11-09 00:01:23"},
+    {"sku": "LLG-33002", "quantity": 180, "last_updated": "2021-10-13 09:10:12"},
+    {"sku": "HER-13001", "quantity": 220, "last_updated": "2021-11-02 08:34:48"},
+    {"sku": "APL-01001", "quantity": 60, "last_updated": "2021-10-12 16:34:23"},
+    {"sku": "GGL-10001", "quantity": 100, "last_updated": "2021-11-23 14:49:56"}
+]

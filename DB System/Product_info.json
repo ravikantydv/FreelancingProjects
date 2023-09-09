@@ -1,0 +1,12 @@
+[
+        {"sku": "SNY-11001", "code": "Sony-01", "price": 100000, "created": "2021-08-09 12:32:56", "last_updated": "2021-08-09 12:32:56", "brand": "Sony", "model": "Bravia-X", "warranty": 5},
+        {"sku": "SNY-12002", "code": "Sony-02", "price": 120000, "created": "2021-09-19 08:23:45", "last_updated": "2021-09-19 08:23:45", "brand": "Sony", "model": "Bravia-Z", "warranty": 5},
+        {"sku": "SMG-21001", "code": "Samsung-01", "price": 66000, "created": "2021-07-13 16:46:32", "last_updated": "2021-07-13 16:46:32", "brand": "Samsung", "model": "XZ", "warranty": 3},
+        {"sku": "LLG-32001", "code": "LG-01", "price": 64000, "created": "2021-10-28 18:34:21", "last_updated": "2021-10-28 18:34:21", "brand": "LG", "model": "ZX", "warranty": 3},
+        {"sku": "PNS-18001", "code": "Panasonic-01", "price": 62000, "created": "2021-11-01 19:21:00", "last_updated": "2021-11-01 19:21:00", "brand": "Panasonic", "model": "LY", "warranty": 3},
+        {"sku": "SMG-22002", "code": "Samsung-02", "price": 79000, "created": "2021-10-13 23:01:24", "last_updated": "2021-10-13 23:01:24", "brand": "Samsung", "model": "G", "warranty": 4},
+        {"sku": "LLG-33002", "code": "LG-02", "price": 80000, "created": "2021-11-03 22:00:15", "last_updated": "2021-11-03 22:00:15", "brand": "LG", "model": "N", "warranty": 4},
+        {"sku": "HER-13001", "code": "Haier-01", "price": 75000, "created": "2021-11-20 16:17:18", "last_updated": "2021-11-20 16:17:18", "brand": "Haier", "model": "A", "warranty": 4},
+        {"sku": "APL-01001", "code": "AppleTV-01", "price": 150000, "created": "2021-11-05 18:32:09", "last_updated": "2021-11-05 18:32:09", "brand": "AppleTV", "model": "AP1", "warranty": 5},
+        {"sku": "GGL-10001", "code": "GoogleTV-01", "price": 120000, "created": "2021-10-01 20:00:54", "last_updated": "2021-10-01 20:00:54", "brand": "GoogleTV", "model": "GO1", "warranty": 5}
+]
