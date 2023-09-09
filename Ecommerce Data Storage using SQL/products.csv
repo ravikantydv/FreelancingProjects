@@ -1,0 +1,11 @@
+product_id,product_name,product_price,product_description,vendor_id,emi_available
+P01,iphone 12,64000,Mobile,1,Yes
+P02,ipad pro,81000,Tablet,3,Yes
+P03,macbook air,75000,Laptop,4,Yes
+P04,Sony 43 inch,55000,TV,2,Yes
+P05,Samsung M31S,22000,Mobile,5,No
+P06,Samsung A01,9000,Mobile,5,No
+P07,Samsung 43 inch,45000,TV,4,Yes
+P08,logi Keyboard,3500,Accessories,2,No
+P09,Apple Pencil,8500,Accessories,3,No
+P10,iphone 13,79000,Mobile,1,Yes
