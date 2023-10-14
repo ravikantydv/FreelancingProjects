@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>185a896b197440b4bf04c679c3f6646c</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="377751b7" class="cell markdown" id="377751b7">
+<h1
+id="-task--1-understand-rsa-algoprithm-for-key-encryption-and-decryption-"><font color=teal>
+Task -1 Understand RSA Algoprithm for Key encryption and Decryption
+<font></h1>
+</div>
+<div id="f026818e" class="cell code" data-execution_count="1"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="f026818e" data-outputId="571ec203-4208-4d1e-991b-a92763ddd720">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install pycryptodome</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Collecting pycryptodome
+  Downloading pycryptodome-3.18.0-cp35-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.1 MB)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.1/2.1 MB 9.4 MB/s eta 0:00:00
+e
+Successfully installed pycryptodome-3.18.0
+</code></pre>
+</div>
+</div>
+<div id="e69e7ff5" class="cell code" data-execution_count="2"
+id="e69e7ff5">
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> Crypto</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> Crypto.PublicKey <span class="im">import</span> RSA</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> Crypto <span class="im">import</span> Random</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> ast</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> Crypto.Cipher <span class="im">import</span> PKCS1_OAEP</span></code></pre></div>
+</div>
+<div id="57416507" class="cell markdown" id="&quot;57416507&quot;">
+<h2 id="key-generation">Key Generation</h2>
+</div>
+<div id="2b1f745a" class="cell code" data-execution_count="3"
+id="2b1f745a">
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co">#generate pub and priv key</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>random_generator <span class="op">=</span> Random.new().read</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>key <span class="op">=</span> RSA.generate(<span class="dv">1024</span>, random_generator)</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>private_key <span class="op">=</span> key.export_key()</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>public_key <span class="op">=</span> key.publickey().exportKey()</span></code></pre></div>
+</div>
+<div id="2vz1Wk2lmB1S" class="cell code" data-execution_count="8"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="2vz1Wk2lmB1S" data-outputId="4e35d7c0-82ab-4189-c891-3db439f2e9ef">
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(private_key)</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(public_key)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>b&#39;-----BEGIN RSA PRIVATE KEY-----\nMIICXAIBAAKBgQCx7B/RPg9qAJBVZrOC63897ukOhYRvwK9f0s1uLw/oyfi4b4rX\n9uPUI+H6ByASrgc9bxEty3+3PZur2JH8VUczvw2ip1IUWXPzcTJgNDJ5VYE3/pmV\nPLVinUbYNaITVsZYM3Ivqt8Cwsti78PhTZUUPGxGH5CY7okls/rMDImcVQIDAQAB\nAoGAC+VPaEhHtAznGYqlEGkJ6Bxn4SRsqyMdJqE7wnTrkaMlWcF9bTyQ1X9zramZ\ny53uln0tTxxGxPvdw2LWueICwVZrF2By9P4GmVs5XwRkwNgKyDtW/hd2aNunT/VS\n1sJuDetYyMMn+BCFSe8ZMPDcH8jeJUpZfn9f/k0QivGRHqkCQQC7jpAyct3n1DlL\n6BxLAEL2LTPbYJHtJ4dO1CH7P+xWutiG1AHDGbVxqpRdh1itBnDN7i5Mp54THWZF\nSEfuSistAkEA8tmCkfKZKsPEYVY6ZsrRJl8z9xlwTbpx3J0BHrAG4WIT1/xlf9mP\n80ODdX/DU2s9Uj+g32GxcLHy3xmTZ35OyQJAQaaZWs9SVX+3vpY0sRwaVElmSXf4\nHGclubYPXv71Hzav7CHxq/Unye3HmSVzKL2EZtDka/iQIGi+D6pJY2Oa0QJBAKPZ\n8ej7IDDkaUmrXjggu8ECFxOvjEBFfbF2FV1ZMys6e10NJIaAikl90eKjU2yjPHqU\nB7zwM0JwLggtP3FinVECQGtcI0jje6uXUE03aggWf6D57hFXhGawfcNMcK+HUx6H\nGN2W9ne0iJ+DVoNiEIKLWie7Q6OejWgbSFVz51OfrNw=\n-----END RSA PRIVATE KEY-----&#39;
+b&#39;-----BEGIN PUBLIC KEY-----\nMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCx7B/RPg9qAJBVZrOC63897ukO\nhYRvwK9f0s1uLw/oyfi4b4rX9uPUI+H6ByASrgc9bxEty3+3PZur2JH8VUczvw2i\np1IUWXPzcTJgNDJ5VYE3/pmVPLVinUbYNaITVsZYM3Ivqt8Cwsti78PhTZUUPGxG\nH5CY7okls/rMDImcVQIDAQAB\n-----END PUBLIC KEY-----&#39;
+</code></pre>
+</div>
+</div>
+<div id="a5fc5160" class="cell markdown" id="a5fc5160">
+<h2 id="encrypt-a-message-using-the-public-key-generated-above">Encrypt
+a message using the public key generated above</h2>
+</div>
+<div id="40a46c33" class="cell code" data-execution_count="4"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="40a46c33" data-outputId="ab8ea874-e463-4cdc-acaa-df26a327f311">
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>message <span class="op">=</span> <span class="bu">input</span>(<span class="st">&#39;Text for RSA encryption and decryption:&#39;</span>)</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>message <span class="op">=</span> <span class="bu">str</span>.encode(message)</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>rsa_public_key <span class="op">=</span> RSA.importKey(public_key)</span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>rsa_public_key <span class="op">=</span> PKCS1_OAEP.new(rsa_public_key)</span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>encrypted <span class="op">=</span> rsa_public_key.encrypt(message)</span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;your encrypted text is : </span><span class="sc">{}</span><span class="st">&#39;</span>.<span class="bu">format</span>(encrypted))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Text for RSA encryption and decryption:Hi
+your encrypted text is : b&#39;lIJ\xbb-C\x01\xc4\xbb\x85\xack\xbe\xc2!\x11\x1d^)/\xafd5\x0f*\x80G.\x99o\xcb=\x93\xb6\x91\x9aR\x0eG\xfd_\x00\x1cJ\xdd\xe6X\x9f\xda=\x04\xe8F\x85\xb3\x17\x9e\xc6\x9a\x93y\x11x\x11\xc3\xed{\xbb\x02\xf9\x91\xc3\x8f\xaf_h@)\x04T\xa1\xf1\xcbD\x1f\x9e\xfe\xb3\xe8\x9f\x83\xc6\xc2\xaf\x8dp\xfe\x00).\xc6\x89[\xb1$\xba [Et&amp;{V\x01\xb8l\x86\x13;U\xd9U!\xc7}\xcb\x8c1&#39;
+</code></pre>
+</div>
+</div>
+<div id="00bf172f" class="cell markdown" id="00bf172f">
+<h2
+id="decryption-the-message-using-the-private-key-generated-above">Decryption
+the message using the private key generated above</h2>
+</div>
+<div id="07d82b17" class="cell code" data-execution_count="5"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="07d82b17" data-outputId="15c40828-4597-4629-acfa-d33fbaac0b2f">
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co">#decrypted code below</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>rsa_private_key <span class="op">=</span> RSA.importKey(private_key)</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>rsa_private_key <span class="op">=</span> PKCS1_OAEP.new(rsa_private_key)</span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>decrypted <span class="op">=</span> rsa_private_key.decrypt(ast.literal_eval(<span class="bu">str</span>(encrypted)))</span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;decrypted message is: &#39;</span>, decrypted)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>decrypted message is:  b&#39;Hi&#39;
+</code></pre>
+</div>
+</div>
+<div id="e9237dff" class="cell markdown" id="e9237dff">
+<h1 id="-task-2-rsa-for-signature-verification"><font color=teal>
+Task-2: RSA For Signature Verification</font></h1>
+</div>
+<div id="398bf8a3" class="cell markdown" id="398bf8a3">
+<h3 id="introduction">Introduction:</h3>
+<p>In this assignment, we will aim to develop a signature verification
+protocol using the RSA algorithm. The RSA public-key cryptosystem
+provides a digital signature scheme (sign + verify), based on the math
+of the modular exponentiations and discrete logarithms and the
+computational difficulty of the RSA problem.</p>
+<p>Steps for RSA sign/verify algorithm:</p>
+<ul>
+<li><p>Key Generation:- The RSA key-pair consists of: public key {n, e}
+&amp; private key {n, d}. The numbers n and d are typically big
+integers, while e is small. By definition, the RSA key-pairs has the
+following property: (m^e)^d ≡(m^d)^e ≡m(modn), for all m in the range
+[0...n)</p></li>
+<li><p>RSA Sign:- sign a message ‘msg’ with the private key components
+{n,d}</p>
+<ul>
+<li>Calculate the message hash: h = hash(msg)</li>
+<li>Encrypt h to calculate the signature: s = h^d (mod n)</li>
+</ul></li>
+<li><p>RSA Verify Signature:- Verify a signature s for the message ‘msg’
+with the public key {n, e}</p>
+<ul>
+<li>Calculate the message hash: h = hash(msg)</li>
+<li>Decrypt the signature: h′ =s^e (mod n)</li>
+<li>Compare h with h' to find whether the signature is valid or not</li>
+</ul></li>
+</ul>
+</div>
+<div id="fda92d75" class="cell markdown" id="fda92d75">
+<h2
+id="part-1-generate-private-key-and-the-public-key-for-signature-verification-"><font color=blue>Part
+1: Generate private key and the public key for signature verification
+</font></h2>
+</div>
+<div id="9df694b5" class="cell code" data-execution_count="6"
+id="9df694b5">
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> Crypto.PublicKey <span class="im">import</span> RSA</span></code></pre></div>
+</div>
+<div id="164e0d5d" class="cell code" data-execution_count="7"
+id="164e0d5d">
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co">## generating the 2048 byte key.</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>key <span class="op">=</span> RSA.generate(<span class="dv">2048</span>)</span></code></pre></div>
+</div>
+<div id="rnyQ-mgMjoQP" class="cell code" data-execution_count="9"
+id="rnyQ-mgMjoQP">
+<div class="sourceCode" id="cb13"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co">## write the private and public key to a file</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> Crypto.PublicKey <span class="im">import</span> RSA</span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Generate a 2048-bit RSA key pair</span></span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a>key <span class="op">=</span> RSA.generate(<span class="dv">2048</span>)</span>
+<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Export the private key to a file</span></span>
+<span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a>private_key <span class="op">=</span> key.export_key()</span>
+<span id="cb13-10"><a href="#cb13-10" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(<span class="st">&#39;private_key.pem&#39;</span>, <span class="st">&#39;wb&#39;</span>) <span class="im">as</span> f:</span>
+<span id="cb13-11"><a href="#cb13-11" aria-hidden="true" tabindex="-1"></a>    f.write(private_key)</span>
+<span id="cb13-12"><a href="#cb13-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-13"><a href="#cb13-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Export the public key to a file</span></span>
+<span id="cb13-14"><a href="#cb13-14" aria-hidden="true" tabindex="-1"></a>public_key <span class="op">=</span> key.publickey().export_key()</span>
+<span id="cb13-15"><a href="#cb13-15" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(<span class="st">&#39;public_key.pem&#39;</span>, <span class="st">&#39;wb&#39;</span>) <span class="im">as</span> f:</span>
+<span id="cb13-16"><a href="#cb13-16" aria-hidden="true" tabindex="-1"></a>    f.write(public_key)</span></code></pre></div>
+</div>
+<div id="fb230983" class="cell markdown" id="fb230983">
+<h2
+id="part-2-sign-the-message-using-the-above-private-key-"><font color=blue>Part
+2: Sign the message using the above private key </font></h2>
+</div>
+<div id="77f500ae" class="cell code" id="77f500ae">
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> Crypto.Signature <span class="im">import</span> pkcs1_15</span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> Crypto.Hash <span class="im">import</span> SHA256</span></code></pre></div>
+</div>
+<div id="a6066c84" class="cell code" id="a6066c84">
+<div class="sourceCode" id="cb15"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co">## Define the msg</span></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>msg <span class="op">=</span> <span class="st">b&#39;Hey this is me, lets meet at cafe at 6pm&#39;</span></span></code></pre></div>
+</div>
+<div id="ucyX-GK6kfLu" class="cell code" data-execution_count="11"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="ucyX-GK6kfLu" data-outputId="3775c9f6-7207-4825-de2c-7a54edd48346">
+<div class="sourceCode" id="cb16"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co">## Import the private key</span></span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> Crypto.Signature <span class="im">import</span> pkcs1_15</span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> Crypto.Hash <span class="im">import</span> SHA256</span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> Crypto.PublicKey <span class="im">import</span> RSA</span>
+<span id="cb16-6"><a href="#cb16-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-7"><a href="#cb16-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Define the message</span></span>
+<span id="cb16-8"><a href="#cb16-8" aria-hidden="true" tabindex="-1"></a>msg <span class="op">=</span> <span class="st">b&#39;Hey this is me, lets meet at the cafe at 6 pm&#39;</span></span>
+<span id="cb16-9"><a href="#cb16-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-10"><a href="#cb16-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Import the private key from a file (assuming you have saved the private key as &#39;private_key.pem&#39;)</span></span>
+<span id="cb16-11"><a href="#cb16-11" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(<span class="st">&#39;private_key.pem&#39;</span>, <span class="st">&#39;rb&#39;</span>) <span class="im">as</span> f:</span>
+<span id="cb16-12"><a href="#cb16-12" aria-hidden="true" tabindex="-1"></a>    private_key_data <span class="op">=</span> f.read()</span>
+<span id="cb16-13"><a href="#cb16-13" aria-hidden="true" tabindex="-1"></a>    private_key <span class="op">=</span> RSA.import_key(private_key_data)</span>
+<span id="cb16-14"><a href="#cb16-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-15"><a href="#cb16-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculate the hash of the message</span></span>
+<span id="cb16-16"><a href="#cb16-16" aria-hidden="true" tabindex="-1"></a>hash_obj <span class="op">=</span> SHA256.new(msg)</span>
+<span id="cb16-17"><a href="#cb16-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-18"><a href="#cb16-18" aria-hidden="true" tabindex="-1"></a><span class="co"># Sign the message using the private key</span></span>
+<span id="cb16-19"><a href="#cb16-19" aria-hidden="true" tabindex="-1"></a>signature <span class="op">=</span> pkcs1_15.new(private_key).sign(hash_obj)</span>
+<span id="cb16-20"><a href="#cb16-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-21"><a href="#cb16-21" aria-hidden="true" tabindex="-1"></a><span class="co"># Now, &#39;signature&#39; contains the digital signature of the message</span></span>
+<span id="cb16-22"><a href="#cb16-22" aria-hidden="true" tabindex="-1"></a><span class="co"># print(signature)</span></span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>b&#39;\xa2p\xfd:^+\x14x\x0b\xfd\xcb9\xddi\x82\xa1\xc1\xbfL\xce\x8a\r\xf8\xc63\xb4\xcb|n8R=\r\xbf\x0f[\xef\x9b\xd2x?z`7!\x9d\xcc\xfc\xff\xd5o\xeb\xf0\xc0\x01XMiF\xa4\xf7?}\x063\x0e\x16m*.\xb7\xb2\xb0\xed\xc8\xe2Z}(O\xb1DY*t\x9c\x8b\xdf\xb4\xe8\x1dR\t\xaa&amp;7\x02\xc3Y\xce@\x9e7]$,\xae\xfc\xdeS7\xa7d\xc2\xb5\xec\x99\xf8\xb9\xd5\xe2{\x91@F\xbd\xf55\xf4\x04\xd0\x9b\x04\x95\xb4\xf0\xb2\xe6\xa9\xef\x8fg,\xbf\x1b-\xf4z\xae\xd2\x94\xff\xbfi\x80\xb9\xd7\x19\x92\x11V(&quot;\x1d\xe5~|H\x92\xc5\x9f\xee\x98\x1dR\x886\xaf\x8b\xf8M\xbf\r \xcfC\x08m\x8d\x08\xa8\xeb\x99\x07\xa6\x0c\xe0\xd3\xe0\x90\x9c\x9a\x7f\nHG\x18\xc6\xc8g\x94\xc5\x1d&lt;\xa2O\x81\xae\x7f\x92m \xba\xd8\x8d\x8ac\xa6\xa6\xc9&quot;\xcd\xa0\xcdJ%j\xd3\xee\xed2\x94\xfd\xa7\xbfnO\x0c\xb2\xbd\x12\x9e7\xf8Og&#39;
+</code></pre>
+</div>
+</div>
+<div id="q6wn04Mxjsoy" class="cell code" data-execution_count="13"
+id="q6wn04Mxjsoy">
+<div class="sourceCode" id="cb18"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="co">## Create a hash of the message</span></span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a><span class="bu">hash</span> <span class="op">=</span> SHA256.new(message)</span></code></pre></div>
+</div>
+<div id="PzFBwv60j2Cs" class="cell code" data-execution_count="14"
+id="PzFBwv60j2Cs">
+<div class="sourceCode" id="cb19"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="co">## sign the message</span></span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> Crypto.Signature <span class="im">import</span> pkcs1_15</span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> Crypto.Hash <span class="im">import</span> SHA256</span>
+<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> Crypto.PublicKey <span class="im">import</span> RSA</span>
+<span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-7"><a href="#cb19-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Define the message</span></span>
+<span id="cb19-8"><a href="#cb19-8" aria-hidden="true" tabindex="-1"></a>message <span class="op">=</span> <span class="st">b&#39;Hey this is me, let</span><span class="ch">\&#39;</span><span class="st">s meet at the cafe at 6 pm&#39;</span></span>
+<span id="cb19-9"><a href="#cb19-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-10"><a href="#cb19-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Import the private key from a file (assuming you have saved the private key as &#39;private_key.pem&#39;)</span></span>
+<span id="cb19-11"><a href="#cb19-11" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(<span class="st">&#39;private_key.pem&#39;</span>, <span class="st">&#39;rb&#39;</span>) <span class="im">as</span> f:</span>
+<span id="cb19-12"><a href="#cb19-12" aria-hidden="true" tabindex="-1"></a>    private_key_data <span class="op">=</span> f.read()</span>
+<span id="cb19-13"><a href="#cb19-13" aria-hidden="true" tabindex="-1"></a>    private_key <span class="op">=</span> RSA.import_key(private_key_data)</span>
+<span id="cb19-14"><a href="#cb19-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-15"><a href="#cb19-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a hash of the message</span></span>
+<span id="cb19-16"><a href="#cb19-16" aria-hidden="true" tabindex="-1"></a>hash_obj <span class="op">=</span> SHA256.new(message)</span>
+<span id="cb19-17"><a href="#cb19-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-18"><a href="#cb19-18" aria-hidden="true" tabindex="-1"></a><span class="co"># Sign the message hash using the private key</span></span>
+<span id="cb19-19"><a href="#cb19-19" aria-hidden="true" tabindex="-1"></a>signature <span class="op">=</span> pkcs1_15.new(private_key).sign(hash_obj)</span>
+<span id="cb19-20"><a href="#cb19-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-21"><a href="#cb19-21" aria-hidden="true" tabindex="-1"></a><span class="co"># Now, &#39;signature&#39; contains the digital signature of the message</span></span>
+<span id="cb19-22"><a href="#cb19-22" aria-hidden="true" tabindex="-1"></a><span class="co"># print(signature)</span></span></code></pre></div>
+</div>
+<div id="dd39ab8b" class="cell code" data-execution_count="15"
+id="dd39ab8b">
+<div class="sourceCode" id="cb20"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="co">## save the signature and message in a file (Optional)</span></span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a hash of the message</span></span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a>hash_obj <span class="op">=</span> SHA256.new(message)</span>
+<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-6"><a href="#cb20-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Sign the message hash using the private key</span></span>
+<span id="cb20-7"><a href="#cb20-7" aria-hidden="true" tabindex="-1"></a>signature <span class="op">=</span> pkcs1_15.new(private_key).sign(hash_obj)</span>
+<span id="cb20-8"><a href="#cb20-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-9"><a href="#cb20-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Save the message and signature to a file</span></span>
+<span id="cb20-10"><a href="#cb20-10" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(<span class="st">&#39;message.txt&#39;</span>, <span class="st">&#39;wb&#39;</span>) <span class="im">as</span> f:</span>
+<span id="cb20-11"><a href="#cb20-11" aria-hidden="true" tabindex="-1"></a>    f.write(message)</span>
+<span id="cb20-12"><a href="#cb20-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-13"><a href="#cb20-13" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(<span class="st">&#39;signature.txt&#39;</span>, <span class="st">&#39;wb&#39;</span>) <span class="im">as</span> f:</span>
+<span id="cb20-14"><a href="#cb20-14" aria-hidden="true" tabindex="-1"></a>    f.write(signature)</span></code></pre></div>
+</div>
+<div id="d8a7cfb0" class="cell markdown" id="d8a7cfb0">
+<h5
+id="signature-is-created-using-the-private-key-by-the-sender-signature-and-the-message-is-sent-to-the-receiver">Signature
+is created using the private key by the sender, signature and the
+message is sent to the receiver.</h5>
+</div>
+<div id="18618a88" class="cell markdown" id="18618a88">
+<h2
+id="part-3-verifying-the-above-signature-sign-for-the-message-msg-using-the-above-public-key-"><font color=blue>Part
+3: Verifying the above signature ‘sign’ for the message ‘msg’ using the
+above public key </font></h2>
+</div>
+<div id="f1d6956a" class="cell markdown" id="f1d6956a">
+<h4
+id="now-the-receiver-has-received-the-signature-and-the-message-from-the-sender-lets-verify-the-signature">Now
+the receiver has received the signature and the message from the sender,
+lets verify the signature.</h4>
+</div>
+<div id="a8704f7c" class="cell code" data-execution_count="16"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="a8704f7c" data-outputId="e8ecbea1-191f-4d6e-e236-20bd960d53b7">
+<div class="sourceCode" id="cb21"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="co">## read the public key</span></span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> Crypto.Signature <span class="im">import</span> pkcs1_15</span>
+<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> Crypto.Hash <span class="im">import</span> SHA256</span>
+<span id="cb21-5"><a href="#cb21-5" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> Crypto.PublicKey <span class="im">import</span> RSA</span>
+<span id="cb21-6"><a href="#cb21-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-7"><a href="#cb21-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Define the received message and signature (assuming you have them in &#39;message.txt&#39; and &#39;signature.txt&#39; files)</span></span>
+<span id="cb21-8"><a href="#cb21-8" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(<span class="st">&#39;message.txt&#39;</span>, <span class="st">&#39;rb&#39;</span>) <span class="im">as</span> f:</span>
+<span id="cb21-9"><a href="#cb21-9" aria-hidden="true" tabindex="-1"></a>    received_message <span class="op">=</span> f.read()</span>
+<span id="cb21-10"><a href="#cb21-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-11"><a href="#cb21-11" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(<span class="st">&#39;signature.txt&#39;</span>, <span class="st">&#39;rb&#39;</span>) <span class="im">as</span> f:</span>
+<span id="cb21-12"><a href="#cb21-12" aria-hidden="true" tabindex="-1"></a>    received_signature <span class="op">=</span> f.read()</span>
+<span id="cb21-13"><a href="#cb21-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-14"><a href="#cb21-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Import the public key from a file (assuming you have saved the public key as &#39;public_key.pem&#39;)</span></span>
+<span id="cb21-15"><a href="#cb21-15" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(<span class="st">&#39;public_key.pem&#39;</span>, <span class="st">&#39;rb&#39;</span>) <span class="im">as</span> f:</span>
+<span id="cb21-16"><a href="#cb21-16" aria-hidden="true" tabindex="-1"></a>    public_key_data <span class="op">=</span> f.read()</span>
+<span id="cb21-17"><a href="#cb21-17" aria-hidden="true" tabindex="-1"></a>    public_key <span class="op">=</span> RSA.import_key(public_key_data)</span>
+<span id="cb21-18"><a href="#cb21-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-19"><a href="#cb21-19" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a hash of the received message</span></span>
+<span id="cb21-20"><a href="#cb21-20" aria-hidden="true" tabindex="-1"></a>hash_obj <span class="op">=</span> SHA256.new(received_message)</span>
+<span id="cb21-21"><a href="#cb21-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-22"><a href="#cb21-22" aria-hidden="true" tabindex="-1"></a><span class="cf">try</span>:</span>
+<span id="cb21-23"><a href="#cb21-23" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Verify the signature using the public key</span></span>
+<span id="cb21-24"><a href="#cb21-24" aria-hidden="true" tabindex="-1"></a>    pkcs1_15.new(public_key).verify(hash_obj, received_signature)</span>
+<span id="cb21-25"><a href="#cb21-25" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;Signature is valid. The message has not been tampered with.&quot;</span>)</span>
+<span id="cb21-26"><a href="#cb21-26" aria-hidden="true" tabindex="-1"></a><span class="cf">except</span> (<span class="pp">ValueError</span>, <span class="pp">TypeError</span>):</span>
+<span id="cb21-27"><a href="#cb21-27" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;Signature is invalid. The message may have been tampered with or is not signed with the private key corresponding to the provided public key.&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Signature is valid. The message has not been tampered with.
+</code></pre>
+</div>
+</div>
+<div id="3f7417e5" class="cell code" data-execution_count="29"
+id="3f7417e5">
+<div class="sourceCode" id="cb23"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="co">## read/load the received message and the received signature.</span></span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Define the paths to the received message and signature files</span></span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>received_message_path <span class="op">=</span> <span class="st">&#39;/content/message.txt&#39;</span></span>
+<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a>received_signature_path <span class="op">=</span> <span class="st">&#39;/content/signature.txt&#39;</span></span>
+<span id="cb23-5"><a href="#cb23-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-6"><a href="#cb23-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-7"><a href="#cb23-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Read the received message from the file</span></span>
+<span id="cb23-8"><a href="#cb23-8" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(received_message_path, <span class="st">&#39;rb&#39;</span>) <span class="im">as</span> f:</span>
+<span id="cb23-9"><a href="#cb23-9" aria-hidden="true" tabindex="-1"></a>    received_message <span class="op">=</span> f.read()</span>
+<span id="cb23-10"><a href="#cb23-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-11"><a href="#cb23-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Read the received signature from the file</span></span>
+<span id="cb23-12"><a href="#cb23-12" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(received_signature_path, <span class="st">&#39;rb&#39;</span>) <span class="im">as</span> f:</span>
+<span id="cb23-13"><a href="#cb23-13" aria-hidden="true" tabindex="-1"></a>    received_signature <span class="op">=</span> f.read()</span></code></pre></div>
+</div>
+<div id="a5218e32" class="cell code" data-execution_count="22"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="a5218e32" data-outputId="068f5e0b-c89e-4b5f-faf8-4a1b5eb002e2">
+<div class="sourceCode" id="cb24"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="co">## Create a hash of the message(received message)</span></span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> Crypto.Hash <span class="im">import</span> SHA256</span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Define the received message</span></span>
+<span id="cb24-5"><a href="#cb24-5" aria-hidden="true" tabindex="-1"></a>received_message <span class="op">=</span> <span class="st">b&#39;Hey this is me, let</span><span class="ch">\&#39;</span><span class="st">s meet at the cafe at 6 pm&#39;</span></span>
+<span id="cb24-6"><a href="#cb24-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-7"><a href="#cb24-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a hash of the received message using SHA-256</span></span>
+<span id="cb24-8"><a href="#cb24-8" aria-hidden="true" tabindex="-1"></a>hash_obj <span class="op">=</span> SHA256.new(received_message)</span>
+<span id="cb24-9"><a href="#cb24-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-10"><a href="#cb24-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Get the hash value as a hexadecimal string</span></span>
+<span id="cb24-11"><a href="#cb24-11" aria-hidden="true" tabindex="-1"></a>message_hash <span class="op">=</span> hash_obj.hexdigest()</span>
+<span id="cb24-12"><a href="#cb24-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-13"><a href="#cb24-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Print or use the message_hash as needed</span></span>
+<span id="cb24-14"><a href="#cb24-14" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Hash of the received message:&quot;</span>, message_hash)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Hash of the received message: 5aa3bb22f76e492fa4515df41741f8af3a4a0eb0fe65461e754e891c66767f3a
+</code></pre>
+</div>
+</div>
+<div id="7464f774" class="cell markdown" id="7464f774">
+<h4
+id="comparing-hash1-and-the-hash-if-hash1-from-received-message-is-same-as-the-hash-from-sent-message-we-will-get-to-know-that-sign-is-original">Comparing
+hash1 and the hash. If 'hash1' (from received message) is same as the
+'hash' (from sent message), we will get to know that sign is
+original.</h4>
+</div>
+<div id="-GxL8kTLkzx7" class="cell code" data-execution_count="27"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="-GxL8kTLkzx7" data-outputId="4945e1d9-2ea9-4bf5-9453-3121fb74e5a3">
+<div class="sourceCode" id="cb26"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> Crypto.Signature <span class="im">import</span> pkcs1_15</span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> Crypto.Hash <span class="im">import</span> SHA256</span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> Crypto.PublicKey <span class="im">import</span> RSA</span>
+<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-5"><a href="#cb26-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Assuming &#39;received_message&#39; and &#39;signature&#39; have been previously loaded or received</span></span>
+<span id="cb26-6"><a href="#cb26-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-7"><a href="#cb26-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculate the hash of the received message using SHA-256</span></span>
+<span id="cb26-8"><a href="#cb26-8" aria-hidden="true" tabindex="-1"></a>hash_obj_received <span class="op">=</span> SHA256.new(received_message)</span>
+<span id="cb26-9"><a href="#cb26-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-10"><a href="#cb26-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Now, you can verify the signature using &#39;hash_obj_received&#39; as the hash of the received message</span></span>
+<span id="cb26-11"><a href="#cb26-11" aria-hidden="true" tabindex="-1"></a><span class="cf">try</span>:</span>
+<span id="cb26-12"><a href="#cb26-12" aria-hidden="true" tabindex="-1"></a>    pkcs1_15.new(key).verify(hash_obj_received, signature)</span>
+<span id="cb26-13"><a href="#cb26-13" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&#39;The signature is valid. Messages are unchanged.&#39;</span>)</span>
+<span id="cb26-14"><a href="#cb26-14" aria-hidden="true" tabindex="-1"></a><span class="cf">except</span> (<span class="pp">ValueError</span>, <span class="pp">TypeError</span>):</span>
+<span id="cb26-15"><a href="#cb26-15" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&#39;Alert!! The signature is not valid. Messages may have been changed.&#39;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>The signature is valid. Messages are unchanged.
+</code></pre>
+</div>
+</div>
+<div id="cebdfefb" class="cell markdown" id="cebdfefb">
+<h3
+id="part-4-make-some-changes-to-the-message-or-signature-and-then-verify-the-signature"><font color=royalblue>Part
+4: Make some changes to the message or signature and then verify the
+signature</font></h3>
+</div>
+<div id="sDQvOeWNk4k0" class="cell code" data-execution_count="30"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="sDQvOeWNk4k0" data-outputId="864c7e84-69ec-4a59-98d3-68676e9243c5">
+<div class="sourceCode" id="cb28"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="co">## read the public key</span></span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(<span class="st">&#39;/content/message.txt&#39;</span>, <span class="st">&#39;rb&#39;</span>) <span class="im">as</span> f:</span>
+<span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a>    received_message <span class="op">=</span> f.read()</span>
+<span id="cb28-4"><a href="#cb28-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-5"><a href="#cb28-5" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(<span class="st">&#39;/content/signature.txt&#39;</span>, <span class="st">&#39;rb&#39;</span>) <span class="im">as</span> f:</span>
+<span id="cb28-6"><a href="#cb28-6" aria-hidden="true" tabindex="-1"></a>    received_signature <span class="op">=</span> f.read()</span>
+<span id="cb28-7"><a href="#cb28-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-8"><a href="#cb28-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Make changes to the received message (for example, appending something)</span></span>
+<span id="cb28-9"><a href="#cb28-9" aria-hidden="true" tabindex="-1"></a>modified_message <span class="op">=</span> received_message <span class="op">+</span> <span class="st">b&#39; (modified)&#39;</span></span>
+<span id="cb28-10"><a href="#cb28-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-11"><a href="#cb28-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculate the hash of the modified message using SHA-256</span></span>
+<span id="cb28-12"><a href="#cb28-12" aria-hidden="true" tabindex="-1"></a>hash_obj_modified <span class="op">=</span> SHA256.new(modified_message)</span>
+<span id="cb28-13"><a href="#cb28-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-14"><a href="#cb28-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Now, you can verify the signature using the modified hash</span></span>
+<span id="cb28-15"><a href="#cb28-15" aria-hidden="true" tabindex="-1"></a><span class="cf">try</span>:</span>
+<span id="cb28-16"><a href="#cb28-16" aria-hidden="true" tabindex="-1"></a>    pkcs1_15.new(public_key).verify(hash_obj_modified, received_signature)</span>
+<span id="cb28-17"><a href="#cb28-17" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&#39;The signature is valid. Messages are unchanged.&#39;</span>)</span>
+<span id="cb28-18"><a href="#cb28-18" aria-hidden="true" tabindex="-1"></a><span class="cf">except</span> (<span class="pp">ValueError</span>, <span class="pp">TypeError</span>):</span>
+<span id="cb28-19"><a href="#cb28-19" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&#39;Alert!! The signature is not valid. Messages may have been changed.&#39;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Alert!! The signature is not valid. Messages may have been changed.
+</code></pre>
+</div>
+</div>
+<div id="DKWbswf2k6AS" class="cell code" data-execution_count="31"
+id="DKWbswf2k6AS">
+<div class="sourceCode" id="cb30"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a><span class="co">## read the received message and the received signature</span></span>
+<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Read the received message from the file</span></span>
+<span id="cb30-3"><a href="#cb30-3" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(received_message_path, <span class="st">&#39;rb&#39;</span>) <span class="im">as</span> f:</span>
+<span id="cb30-4"><a href="#cb30-4" aria-hidden="true" tabindex="-1"></a>    received_message <span class="op">=</span> f.read()</span>
+<span id="cb30-5"><a href="#cb30-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-6"><a href="#cb30-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Read the received signature from the file</span></span>
+<span id="cb30-7"><a href="#cb30-7" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(received_signature_path, <span class="st">&#39;rb&#39;</span>) <span class="im">as</span> f:</span>
+<span id="cb30-8"><a href="#cb30-8" aria-hidden="true" tabindex="-1"></a>    received_signature <span class="op">=</span> f.read()</span></code></pre></div>
+</div>
+<div id="pW_KzcEtk8Xp" class="cell code" data-execution_count="32"
+id="pW_KzcEtk8Xp">
+<div class="sourceCode" id="cb31"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="co">## Create a hash of the message(received message)</span></span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a>hash1 <span class="op">=</span> SHA256.new(message)</span></code></pre></div>
+</div>
+<div id="OQe81WCtrrjP" class="cell code" data-execution_count="33"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="OQe81WCtrrjP" data-outputId="1cde7ee4-8a2d-4e19-9f53-fdb10b53bcce">
+<div class="sourceCode" id="cb32"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> Crypto.Hash <span class="im">import</span> SHA256</span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-3"><a href="#cb32-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Assuming &#39;received_message&#39; contains the received message</span></span>
+<span id="cb32-4"><a href="#cb32-4" aria-hidden="true" tabindex="-1"></a>received_message <span class="op">=</span> <span class="st">b&#39;Hey this is me, let</span><span class="ch">\&#39;</span><span class="st">s meet at the cafe at 6 pm&#39;</span></span>
+<span id="cb32-5"><a href="#cb32-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-6"><a href="#cb32-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a hash of the received message using SHA-256</span></span>
+<span id="cb32-7"><a href="#cb32-7" aria-hidden="true" tabindex="-1"></a>hash1 <span class="op">=</span> SHA256.new(received_message)</span>
+<span id="cb32-8"><a href="#cb32-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-9"><a href="#cb32-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Get the hash value as a hexadecimal string</span></span>
+<span id="cb32-10"><a href="#cb32-10" aria-hidden="true" tabindex="-1"></a>message_hash <span class="op">=</span> hash1.hexdigest()</span>
+<span id="cb32-11"><a href="#cb32-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-12"><a href="#cb32-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Print or use the message_hash as needed</span></span>
+<span id="cb32-13"><a href="#cb32-13" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Hash of the received message:&quot;</span>, message_hash)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Hash of the received message: 5aa3bb22f76e492fa4515df41741f8af3a4a0eb0fe65461e754e891c66767f3a
+</code></pre>
+</div>
+</div>
+<div id="0tMi_5z-lGhs" class="cell code" data-execution_count="36"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="0tMi_5z-lGhs" data-outputId="16f21db0-9b14-446c-d39e-c4f59221a24b">
+<div class="sourceCode" id="cb34"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a><span class="co">## Compare and verify</span></span>
+<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(received_message_path, <span class="st">&#39;rb&#39;</span>) <span class="im">as</span> f:</span>
+<span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a>    received_message <span class="op">=</span> f.read()</span>
+<span id="cb34-4"><a href="#cb34-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-5"><a href="#cb34-5" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(received_signature_path, <span class="st">&#39;rb&#39;</span>) <span class="im">as</span> f:</span>
+<span id="cb34-6"><a href="#cb34-6" aria-hidden="true" tabindex="-1"></a>    received_signature <span class="op">=</span> f.read()</span>
+<span id="cb34-7"><a href="#cb34-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-8"><a href="#cb34-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculate the hash of the received message using SHA-256</span></span>
+<span id="cb34-9"><a href="#cb34-9" aria-hidden="true" tabindex="-1"></a>hash_obj_received <span class="op">=</span> SHA256.new(received_message)</span>
+<span id="cb34-10"><a href="#cb34-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-11"><a href="#cb34-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Now, you can verify the received signature using &#39;hash_obj_received&#39; as the hash of the received message</span></span>
+<span id="cb34-12"><a href="#cb34-12" aria-hidden="true" tabindex="-1"></a><span class="cf">try</span>:</span>
+<span id="cb34-13"><a href="#cb34-13" aria-hidden="true" tabindex="-1"></a>    pkcs1_15.new(public_key).verify(hash_obj_received, received_signature)</span>
+<span id="cb34-14"><a href="#cb34-14" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&#39;The signature is valid. Messages are unchanged.&#39;</span>)</span>
+<span id="cb34-15"><a href="#cb34-15" aria-hidden="true" tabindex="-1"></a><span class="cf">except</span> (<span class="pp">ValueError</span>, <span class="pp">TypeError</span>):</span>
+<span id="cb34-16"><a href="#cb34-16" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&#39;Alert!! The signature is not valid. Messages may have been changed.&#39;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>The signature is valid. Messages are unchanged.
+</code></pre>
+</div>
+</div>
+<div id="zaoMOR2FrxAD" class="cell code" id="zaoMOR2FrxAD">
+<div class="sourceCode" id="cb36"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a><span class="co">### Completed, signature valid and verified.</span></span></code></pre></div>
+</div>
+</body>
+</html>
